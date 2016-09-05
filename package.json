@@ -34,5 +34,25 @@
       "name": "eHattori",
       "email": "eduardo.hattori@hotmail.com"
     }
-  ]
+  ],
+  "gitHead": "99270916c0fc4ca344eed42c26cb2f5dd6e0e8fb",
+  "_id": "bunyan-mysql@0.0.1",
+  "_shasum": "586ac939596cf5521a5eab7f2ea16e593a049826",
+  "_from": "bunyan-mysql@latest",
+  "_npmVersion": "3.5.2",
+  "_nodeVersion": "4.2.6",
+  "_npmUser": {
+    "name": "ehattori",
+    "email": "eduardo.hattori@hotmail.com"
+  },
+  "dist": {
+    "shasum": "586ac939596cf5521a5eab7f2ea16e593a049826",
+    "tarball": "https://registry.npmjs.org/bunyan-mysql/-/bunyan-mysql-0.0.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/bunyan-mysql-0.0.1.tgz_1473038051130_0.07561203953810036"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/bunyan-mysql/-/bunyan-mysql-0.0.1.tgz"
 }
