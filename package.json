@@ -1,6 +1,6 @@
 {
   "name": "bunyan-mysql",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Bunyan stream for sending log data to MySQL",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "Mysql"
   ],
   "author": {
-    "name": "ehattori"
+    "name": "eHattori"
   },
   "license": "MIT",
   "bugs": {
@@ -31,7 +31,7 @@
   },
   "maintainers": [
     {
-      "name": "ehattori",
+      "name": "eHattori",
       "email": "eduardo.hattori@hotmail.com"
     }
   ]
