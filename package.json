@@ -27,32 +27,12 @@
     "mysql": "^2.11.1"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
-  },
-  "gitHead": "1ab14f4d22a718de111c8d575b83daac6e09925f",
-  "_id": "bunyan-elasticsearch@1.0.0",
-  "_shasum": "398b44754f7dfe4f9321c9c6b14d89d9a428c2fc",
-  "_from": "bunyan-elasticsearch@latest",
-  "_npmVersion": "2.15.8",
-  "_nodeVersion": "4.4.7",
-  "_npmUser": {
-    "name": "ehattori",
-    "email": "eduardo.hattori@hotmail.com"
-  },
-  "dist": {
-    "shasum": "398b44754f7dfe4f9321c9c6b14d89d9a428c2fc",
-    "tarball": "https://registry.npmjs.org/bunyan-elasticsearch/-/bunyan-elasticsearch-1.0.0.tgz"
+    "mocha": "^2.5.3"
   },
   "maintainers": [
     {
       "name": "ehattori",
       "email": "eduardo.hattori@hotmail.com"
     }
-  ],
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/bunyan-elasticsearch-1.0.0.tgz_1459457040395_0.1962385841179639"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/bunyan-elasticsearch/-/bunyan-elasticsearch-1.0.0.tgz"
+  ]
 }
