@@ -52,7 +52,7 @@ var log = bunyan.createLogger({
     serializers: bunyan.stdSerializers
 });
 
-logger.info('Oh My God, this works!!!');
+log.info('Oh My God, this works!!!');
 
 ```
 

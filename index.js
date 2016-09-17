@@ -44,7 +44,7 @@ MySqlStream.prototype._write = function(entry, encoding , callback){
             mysql.escape(entry.msg) + ", " +
             mysql.escape(entry.pid) + ", " +
             mysql.escape(entry.level) + ", " +
-            "STR_TO_DATE(" + mysql.escape(moment(entry.time).format("MM/DD/YYYY HH:mm:ss")) + ",'%d/%m/%Y %T'), " +
+            "STR_TO_DATE(" + mysql.escape(moment(entry.time).format("YYYY,MM,DD HH,mm,ss")) + ",'%Y,%m,%d %h,%i,%s'), " +
             mysql.escape(entry.v) + ") ";
 
     sql = sql.replace("<DATABASE>", this._options.database);
