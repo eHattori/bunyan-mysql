@@ -1,6 +1,6 @@
 {
   "name": "bunyan-mysql",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Bunyan stream for sending log data to MySQL",
   "main": "index.js",
   "scripts": {
