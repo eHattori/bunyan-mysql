@@ -36,7 +36,7 @@ util.inherits(MySqlStream, Writable);
 MySqlStream.prototype._write = function(entry, encoding , callback){
 
     entry = JSON.parse(entry.toString('utf8'));
-    var sql = "INSERT INTO <DATABASE>.<TABLE> "+
+    var sql = "INSERT INTO `<DATABASE>`.<TABLE> "+
             "( name, hostname, msg, pid, level, time, v) "+
             "VALUES ("+
             mysql.escape(entry.name) + ", " +
