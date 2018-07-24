@@ -3,7 +3,7 @@ bunyan-mysql
 
 A Bunyan stream for saving logs into Mysql.
 
-## Install
+## Installation
 
 ```
 npm install bunyan-mysql
@@ -11,9 +11,9 @@ npm install bunyan-mysql
 
 ## Create Table
 
-Create table in your host
+Create table in your host database
 
-```
+```sql
 CREATE TABLE log(
 	name varchar(200),
 	hostname varchar(200),
@@ -27,7 +27,7 @@ CREATE TABLE log(
 
 ## Example
 
-```
+```js
 var bunyan      = require('bunyan');
 var MySqlStream = require('bunyan-mysql');
 
